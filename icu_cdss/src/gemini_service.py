@@ -16,7 +16,7 @@ import urllib.error
 
 _SSL_CTX = ssl._create_unverified_context()
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyBnP5Ydr7HwSrKHHrKRo9O2xyi1-im6z4w")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "Key")
 GEMINI_MODEL = "gemini-3-flash-preview"
 GEMINI_URL = (
     f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}"
