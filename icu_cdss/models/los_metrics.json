@@ -1,0 +1,8 @@
+{
+  "val_mae_hours": 78.16337917290859,
+  "val_medae_hours": 52.618041173862096,
+  "test_mae_hours": 118.92894194622762,
+  "test_medae_hours": 55.84498128775651,
+  "n_train": 100143,
+  "n_features": 169
+}

@@ -1,0 +1,15 @@
+{
+  "best_params": {
+    "max_depth": 6,
+    "learning_rate": 0.011199583361220834,
+    "subsample": 0.7153193629953103,
+    "colsample_bytree": 0.7369161406114926
+  },
+  "val_auroc": 0.8423455339497538,
+  "test_auroc": 0.9270458074020284,
+  "val_precision_at_05": 0.248642779587405,
+  "val_recall_at_05": 0.5288683602771362,
+  "n_features": 169,
+  "n_train": 53205,
+  "train_pos_rate": 0.03020392820223663
+}

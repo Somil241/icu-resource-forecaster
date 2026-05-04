@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: icu-cdss-api
+    runtime: python
+    rootDir: icu_cdss
+    buildCommand: pip install -r requirements.txt && pip install fastapi uvicorn google-generativeai
+    startCommand: cd src && python -m uvicorn api:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11"
+      - key: GEMINI_API_KEY
+        sync: false
+    plan: free
